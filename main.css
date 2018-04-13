@@ -1,0 +1,104 @@
+*{
+    block-size:border-box;
+}
+
+html{
+    font-size:14px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alohaLogo {
+    width: 50%;
+    max-height: 80px;
+    background-color: green;
+    order:1;
+}
+
+.shoppingCart {
+    width: 50%;
+    max-height: 80px;
+    background-color: blue;
+    order:2;
+}
+
+.navBar {
+    width: 100%;
+    height: 45px;
+    background-color: orange;
+    order:3;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.text {
+    height: 260px;
+    background-color: pink;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mens {
+    width: 100vw;
+    height: 50vw;
+    background-color: red;
+}
+
+.trends {
+    width:50%;
+    height: 50vw;
+    background-color: blueviolet
+}
+
+.glasses {
+    width:50%;
+    height: 50vw;
+    background-color: brown;
+}
+
+.sale {
+    width:50%;
+    height: 50vw;
+    background-color: green;
+}
+
+.bags {
+    width:50%;
+    height: 50vw;
+    background-color: coral;
+}
+
+.womens {
+
+    width:100%;
+    height: 50vw;
+    background-color: peachpuff;
+
+}
+
+.productCarousel {
+    height: 680px;
+    background-color: orange;
+}
+
+.updates {
+    height: 350px;
+    background-color: black;
+    width: 100%;
+}
+
+.bottom {
+    height: 300px;
+    width: 100%;
+    background-color: skyblue;
+}
