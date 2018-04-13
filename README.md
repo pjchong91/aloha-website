@@ -1,3 +1,5 @@
+# Aloha Project
+
 Task: Create a homepage for Aloha Apparel Co.
 Using: HtmL, CSS, JS, flexbox(?)
 

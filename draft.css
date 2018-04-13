@@ -361,17 +361,12 @@ h1 {
     background-position: bottom;
     height: 350px;
     width: 100%;
-
-}
-
-/* .substext, .placingButton{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
- */
 
+}
 
 .subscribe h1 {
     color: white;
@@ -384,27 +379,27 @@ h1 {
     width: 90%;
 }
 
-/* .form {
+.form {
+    width: 80%;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-} */
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+
+}
 
 .placingButton {
+
     border: 3px solid red;
-    width: 80%;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    min-width: 300px;
+    background-color: white;
+    border-radius: 50px;
+
 
 
 }
     
 .subscribe input { /*whynotscaling */
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+   
     padding-left: 30px;
     font-family: 'Raleway';
     font-size: 14px;
@@ -412,6 +407,7 @@ h1 {
     border: 1px #d7d7d7;
     height: 40px;
     border-radius: 50px;
+    
 
 }
 
@@ -424,25 +420,35 @@ h1 {
     border-radius: 50px;
     text-decoration: none;
     border: none;
+    width: 100px;
+    margin-right: 3px;
 }
 
 footer {
     border: 3px dotted orange;
     background-color: #242424;
+    display:flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.bottom {
+.bottom{
+
+}
+
+/* .bottom {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
 
 .leftFooter {
     color: white;
     font-family: 'Playfair Display';
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -463,7 +469,7 @@ footer {
 .socialMedia ul {
     color: white;
     list-style: none;
-    text-align: left;
+    text-align: center;
     line-height: 2.0;
 }
 
@@ -479,7 +485,12 @@ footer {
 }
 
 .socialMedia i{
-    position: absolute;
+    /* position: absolute; */
     left: -30px;
     top: 8px;
+    display: inline-block;
+}
+
+.socialMedia li{
+    display: none;
 }
