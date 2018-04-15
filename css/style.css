@@ -197,7 +197,7 @@ section {
     color: white;
     text-transform: uppercase;
     font-size: 18px;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px gray;
     font-weight: 300;
 
 }
@@ -637,6 +637,32 @@ footer {
         font-size: 1.143rem;
         display: inline;
         margin: 0;
+    }
+
+}
+
+/*RWD for Desktop*/
+@media all and (min-width:1240px) {
+    .top img{
+        max-height: 65px;
+        margin: 20px 40px;
+    }
+
+    .mainNavigation ul{
+        word-spacing: 30px;
+        font-size: 1.143rem;
+    }
+
+    .banner h2{
+        font-size: 1.429rem;
+    }
+
+    .banner h1{
+        font-size: 4.286rem;
+    }
+
+    .categories a{
+        font-size: 2.571rem;
     }
 
 }
