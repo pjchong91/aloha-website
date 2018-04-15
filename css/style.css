@@ -2,96 +2,96 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('project-01/project-01/fonts/Raleway-LightItalic.eot');
-    src: url('project-01/project-01/fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/Raleway-LightItalic.woff2') format('woff2'),
-        url('project-01/project-01/fonts/Raleway-LightItalic.woff') format('woff'),
-        url('project-01/project-01/fonts/Raleway-LightItalic.ttf') format('truetype'),
-        url('project-01/project-01/fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+    src: url('../fonts/Raleway-LightItalic.eot');
+    src: url('../fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-LightItalic.woff2') format('woff2'),
+        url('../fonts/Raleway-LightItalic.woff') format('woff'),
+        url('../fonts/Raleway-LightItalic.ttf') format('truetype'),
+        url('../fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url('project-01/project-01/fonts/Raleway-Medium.eot');
-    src: url('project-01/project-01/fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/Raleway-Medium.woff2') format('woff2'),
-        url('project-01/project-01/fonts/Raleway-Medium.woff') format('woff'),
-        url('project-01/project-01/fonts/Raleway-Medium.ttf') format('truetype'),
-        url('project-01/project-01/fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff'),
+        url('../fonts/Raleway-Medium.ttf') format('truetype'),
+        url('../fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url('project-01/project-01/fonts/Raleway-MediumItalic.eot');
-    src: url('project-01/project-01/fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/Raleway-MediumItalic.woff2') format('woff2'),
-        url('project-01/project-01/fonts/Raleway-MediumItalic.woff') format('woff'),
-        url('project-01/project-01/fonts/Raleway-MediumItalic.ttf') format('truetype'),
-        url('project-01/project-01/fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
+    src: url('../fonts/Raleway-MediumItalic.eot');
+    src: url('../fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Raleway-MediumItalic.woff') format('woff'),
+        url('../fonts/Raleway-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url('project-01/project-01/fonts/Raleway-Light.eot');
-    src: url('project-01/project-01/fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/Raleway-Light.woff2') format('woff2'),
-        url('project-01/project-01/fonts/Raleway-Light.woff') format('woff'),
-        url('project-01/project-01/fonts/Raleway-Light.ttf') format('truetype'),
-        url('project-01/project-01/fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+    src: url('../fonts/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway-Light.ttf') format('truetype'),
+        url('../fonts/Raleway-Light.svg#Raleway-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('project-01/project-01/fonts/PlayfairDisplay-Regular.eot');
-    src: url('project-01/project-01/fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Regular.woff') format('woff'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('project-01/project-01/fonts/PlayfairDisplay-Italic.eot');
-    src: url('project-01/project-01/fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Italic.woff') format('woff'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+    src: url('../fonts/PlayfairDisplay-Italic.eot');
+    src: url('../fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Italic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('project-01/project-01/fonts/PlayfairDisplay-Bold.eot');
-    src: url('project-01/project-01/fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Bold.woff') format('woff'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    src: url('../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('project-01/project-01/fonts/PlayfairDisplay-BoldItalic.eot');
-    src: url('project-01/project-01/fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-        url('project-01/project-01/fonts/PlayfairDisplay-BoldItalic.woff') format('woff'),
-        url('project-01/project-01/fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
-        url('project-01/project-01/fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+    src: url('../fonts/PlayfairDisplay-BoldItalic.eot');
+    src: url('../fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
     font-weight: bold;
     font-style: italic;
 }
@@ -174,8 +174,7 @@ body {
 }
 
 p {
-    margin: auto;
-    margin: auto;
+    margin: 0 auto;
     line-height: 2;
     font-size: 16px;
 }
@@ -211,7 +210,7 @@ h1 {
 
 
 .banner {
-    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/banner-girl.png') no-repeat, url('project-01/project-01/images/flower-bkgd.jpg');
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/banner-girl.png') no-repeat, url('../images/flower-bkgd.jpg');
     background-position: center, center bottom, center;
     background-size: cover, auto 350px, cover;
     height: 400px;
@@ -271,41 +270,41 @@ h1 {
 }
 
 .mens {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/mens-category.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/mens-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 
 .trends {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/trends-category.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/trends-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 .glasses{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/glasses-category.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/glasses-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 
 .sale{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/sale-category.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/sale-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 
 .bags {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/bags-category.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/bags-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 
 .womens{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/womens-category.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/womens-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
@@ -340,7 +339,7 @@ h1 {
 }
 
 .subscribe {
-    background-image: linear-gradient(to right, rgba(225,225,0,0.02), rgba(225,225,0,0.02)), url('project-01/project-01/images/wave-bkgd.jpg');
+    background-image: linear-gradient(to right, rgba(225,225,0,0.02), rgba(225,225,0,0.02)), url('../images/wave-bkgd.jpg');
     background-repeat: cover;
     background-position: bottom;
     width: 100%;
@@ -554,59 +553,41 @@ footer {
     }
 
     .bottom {
-        border: 3px solid red;
         width: 95%;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch;
         justify-content: space-between;
+        height: 200px;
     }
 
     .bottom p{
         max-width: none;
+        font-size: 1.143rem;
     }
 
     .bottom div{
         border: 3px dotted blue;
     }
 
-    
-    .A{
-        width: 95%;
-        display: flex;
-        flex-direction: row;
-        
-
-    }
-
-
-    /* .bottom {
-        margin-left: auto;
-        margin-right: auto;
-        width: 95%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        border: 3px solid red;
-      } 
-      
-    .bottom p{
-        font-size: 1.143rem;
-        width: auto;
-        margin-left: 0;
-        margin-right: 0;
-        
-        /* background-color: lightgreen; 
-    }
-
     .leftFooter {
         text-align: left;
+        margin-bottom: none;
+        height: 200px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start;
+        justify-content: space-between;
+    }
+
+    .leftFooter p{
+
+    }
+
+   
+    .leftFooter {
+        
+        /*  */
         /* border: 3px solid blue; 
         height: auto;
         width: 50%;

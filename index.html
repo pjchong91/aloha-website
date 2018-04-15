@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <title>Aloha Apparel Co.</title>
-    <link rel="stylesheet" type="css/text" href="./css/reset.css">
+  
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="draft.css" />
+    <link rel="stylesheet" type="css/text" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     <script src="carousel.js"></script>
     <!-- Put your own css after external fonts    -->
     <meta name="description" content="Clothing by Aloha Apparel Co">
@@ -18,9 +19,10 @@
 </head>
 
 <body>
+    <!-- Top of the page.  Includes: Logo, Navigation Bar, and Shopping Cart -->
     <section class="top">
             <div class="alohaLogo">
-                <img src="project-01/project-01/images/aloha-logo.svg" alt="Aloha Apparel Co. Logo">
+                <img src="./images/aloha-logo.svg" alt="Aloha Apparel Co. Logo">
             </div>
    
 
@@ -34,11 +36,12 @@
             </nav>
 
             <div class="shoppingCart">
-                <img src="project-01/project-01/images/cart-icon.svg" alt="Shopping Cart">
+                <img src="./images/cart-icon.svg" alt="Shopping Cart">
             </div>   
     </section>
 
-    
+
+    <!-- Banner.  Includes: Floral background and 2 headers -->
     <section class="banner">
         <div class="container">
             <h2>New Collection</h2>
@@ -57,34 +60,34 @@
         </div>
     </section>
     
-
-    <div class="categories" id="shopJump">
-        <div class="mens box">
-            <a href="#">Men's</a>
-        </div>
-    
-        <div class="trends box">
-            <a href="#">Trends</a>
-        </div>
-    
-        <div class="glasses box">
-            <a href="#">Glasses</a>
-        </div>
-    
-        <div class="sale box">
-            <a href="#">Sale</a>
-        </div>
-    
-        <div class="bags box">
-            <a href="#">Bags</a>
-        </div>
-    
-        <div class="womens box">
-            <a href="#">Women's<a>
-        </div>
-    
-
-    </div>
+    <!-- Flexbox containing 6 styles -->
+    <section id="shopJump">
+        <div class="categories">
+            <div class="mens box">
+                <a href="#">Men's</a>
+            </div>
+        
+            <div class="trends box">
+                <a href="#">Trends</a>
+            </div>
+        
+            <div class="glasses box">
+                <a href="#">Glasses</a>
+            </div>
+        
+            <div class="sale box">
+                <a href="#">Sale</a>
+            </div>
+        
+            <div class="bags box">
+                <a href="#">Bags</a>
+            </div>
+        
+            <div class="womens box">
+                <a href="#">Women's</a>
+            </div>
+        </div> <!-- End of Categories -->
+    </section> <!-- End of shopJump -->
 
     <section class="mostLoved" id="featuredJump">
         <div class="container">
@@ -93,7 +96,7 @@
             <div class="productCarousel">
                 
                 <!-- <figure>
-                    <img src="project-01/project-01/images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack"> 
+                    <img src="./images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack"> 
                     <figcaption>
                         <p class="clothingType">Bags</p>
                         <h2>Blue Hipster Backpack</h2>
@@ -102,7 +105,7 @@
                 </figure>
 
                 <figure> 
-                    <img src="project-01/project-01/images/blue-silk-dress.jpg" alt="Blue Silk Dress"> 
+                    <img src="./images/blue-silk-dress.jpg" alt="Blue Silk Dress"> 
                     <figcaption>
                         <p class="clothingType">Dresses</p>
                         <h2>Blue Silk Dress</h2>
@@ -111,7 +114,7 @@
                 </figure>
                     
                 <figure>
-                    <img src="project-01/project-01/images/checked-stretch-dress.jpg" alt="Checked Stretch Dress">
+                    <img src="./images/checked-stretch-dress.jpg" alt="Checked Stretch Dress">
                     <figcaption>
                         <p class="clothingType">Dresses</p>
                         <h2>Checked Stretch Dress</h2>
@@ -121,7 +124,7 @@
 
                 <figure>
                     
-                    <img src="project-01/project-01/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
+                    <img src="./images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
                     <figcaption>
                         <p class="clothingType">Shirts</p>
                         <h2>Cotton Blue Shirt</h2>
@@ -131,7 +134,7 @@
 
                 <figure>
                     
-                    <img src="project-01/project-01/images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt"> 
+                    <img src="./images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt"> 
                     <figcaption>
                         <p class="clothingType">Shirts</p>
                         <h2>Cotton Yellow Shirt</h2>
@@ -140,7 +143,7 @@
                 </figure>
 
                 <figure>
-                    <img src="project-01/project-01/images/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
+                    <img src="./images/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
                     <figcaption>
                         <p class="clothingType">Denim</p>
                         <h2>Denim Overall Shorts</h2>
@@ -150,7 +153,7 @@
                 
                 <figure>
                     
-                    <img src="project-01/project-01/images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
+                    <img src="./images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
                     <figcaption>
                         <p class="clothingType">Dresses</p>
                         <h2>Pink Dotted Dress</h2>
@@ -160,7 +163,7 @@
                     
                 <figure>
                     
-                    <img src="project-01/project-01/images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">   
+                    <img src="./images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">   
                     <figcaption>
                         <p class="clothingType">Dresses</p>
                         <h2> Stretch Knit Dress</h2>
@@ -172,6 +175,7 @@
     </section> 
     
 
+    <!-- Subscribe section.  Includes: Wave banner, form with input box and button-->
     <section class="subscribe" id="updatesJump">
         <div class="substext container">
         <h1><em>Sign-up for</em> <strong>Updates</strong></h1>
@@ -186,32 +190,29 @@
                 <button type="submit">Subscribe</button>
             </form>
         </div>
-        
-
-        
     </section>
 
 
     <footer>
 
-        <div class="A">
-            <div class="B"></div>
-                <div class="C"></div>
-            
-        </div>
         <div class="bottom">
 
             <div class="leftFooter">
-                <div class="after">
-       
-                <p>© 2017 Aloha Apparel Co.<br>
-                    Powered by HTML and CSS. </p>
-                
-                <p>604-604-6040. <a class="email" href="#">info@alohaapparel.com</a></p>
+              
+                <div class="copyright">
+                    <p>© 2017 Aloha Apparel Co.<br>
+                     Powered by HTML and CSS. </p>
+                </div>
 
-                <p class="location">1490 W Broadway <br>
+                <div class="phonemail">
+                    <p>604-604-6040. <a class="email" href="#">info@alohaapparel.com</a></p>
+                </div>
+
+                <div class="location">
+                    <p>1490 W Broadway <br>
                     Vancouver, BC, Canada </p>
                 </div>
+                
             
         </div>
 

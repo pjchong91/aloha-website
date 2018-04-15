@@ -16,6 +16,8 @@ Q: push assignment to GitHub - with all commits synced to it
 Q: What are essential elements?
 Q: What is a CSS reset? 
     Removes default CSS elements.  Place it before your own CSS.  This should be done on all projects.
+
+    ** IS MY RESET NOT WORKING?? 8px margin around whole body.
 Q: Probably want to scale down pictures to fit better in mobile??
 
 ** VALIDATE HTML AND CSS
