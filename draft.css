@@ -113,13 +113,13 @@ html {
 
 .top img{
     max-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .alohaLogo{
     width: 50%;
-    height: 80px;
     order:1;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -127,7 +127,6 @@ html {
 
 .shoppingCart {
     width: 50%;
-    height: 80px;
     order:2;
     display: flex;
     justify-content: flex-end;
@@ -175,12 +174,10 @@ body {
 }
 
 p {
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin: auto;
     line-height: 2;
     font-size: 16px;
-
 }
 
 section {
@@ -226,11 +223,8 @@ h1 {
 }
 
 .handcrafted {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 36px;
-    margin-bottom: 36px;
+    margin-top: 50px;
+    margin-bottom:50px;
 }
 
 .mostLoved {
@@ -238,7 +232,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.flexbox {
+.categories {
     display: flex;
     flex-wrap: wrap;
 }
@@ -255,16 +249,14 @@ h1 {
     width: 100%;
 }
 
-.flexbox div{
+.categories div{
     border: 3px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
-.flexbox a{
+.categories a{
     text-transform:uppercase;
     color: white;
     font-size: 20px;
@@ -272,16 +264,13 @@ h1 {
     text-shadow: 1px 1px 2px gray;
     text-align: center;
     text-decoration: none;
-
 }
 
-.flexbox a:hover{
-    color: #ede59e;
-   
+.categories a:hover{
+    color: #ede59e; 
 }
 
 .mens {
-
     background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/mens-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
@@ -289,14 +278,12 @@ h1 {
 }
 
 .trends {
- 
     background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/trends-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 .glasses{
-  
     background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/glasses-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
@@ -304,9 +291,6 @@ h1 {
 }
 
 .sale{
- 
-
-  
     background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/sale-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
@@ -314,8 +298,6 @@ h1 {
 }
 
 .bags {
-
-    
     background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/bags-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
@@ -323,34 +305,30 @@ h1 {
 }
 
 .womens{
-
     background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('project-01/project-01/images/womens-category.jpg');
     background-size: cover,cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
 }
 
-
 .productCarousel{
     height: 680px;
 }
+
 .productCarousel p {
     text-transform: uppercase;
     color: #969696;
     margin-top:0;
     margin-bottom: 0;
-
-
 }
-
 
 .productCarousel h2{
     font-family: 'Playfair Display';
     color: #e2574c;
     font-weight: 500;
     margin: 12px;
-
 }
+
 .clothingType {
     font-size: 11px;
     font-weight: 400;
@@ -370,7 +348,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .subscribe h1 {
@@ -385,16 +362,6 @@ h1 {
     width: 90%;
 }
 
-/* .formadjust {
-    border: 3px dotted green;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* min-width: 300px; 
-}*/
-
-
 form{
  width: 85%;
  height: 40px;
@@ -407,21 +374,8 @@ form{
  margin-top: 10px;
  margin-bottom: 45px;
 }
-
-
-/* .placingButton {
-
-    border: 3px solid red;
-    background-color: white;
-    border-radius: 50px;
-    min-width: 300px;
-    width: 90%;
-
-} */
     
-.subscribe input { /*whynotscaling */
-   
-    
+.subscribe input { 
     padding-left: 30px;
     font-family: 'Raleway';
     font-size: 14px;
@@ -429,8 +383,6 @@ form{
     border: 1px #d7d7d7;
     height: 40px;
     border-radius: 50px;
-    
-
 }
 
 .subscribe button {
@@ -442,33 +394,18 @@ form{
     border: none;
     height: 34px;
     width: 100px;
-margin-right: 3px;
+    margin-right: 3px;
 }
 
-/* .subscribe button {
-    font-family: 'Raleway';
-    font-size: 14px;
-    background-color: #e2574c;
-    color: white;
-    height: 34px;
-    border-radius: 50px;
-    text-decoration: none;
-    border: none;
-    width: 100px;
-    margin-right: 3px;
-} */
-
-.boxbox{
-    /* height: 200px; */
+.subemail{
     width: 100%;
-    /* background: purple; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 footer {
-    
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #242424;
@@ -480,22 +417,20 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 .bottom p{
     font-size: 14px;
     line-height: 1.5;
     max-width: none;
-    background-color: lightgreen;
+    width: auto;
 }
-
-
 
 .leftFooter {
     color: white;
     font-family: 'Playfair Display';
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .email {
@@ -511,9 +446,9 @@ footer {
 }
 
 .socialMedia {
-    width: 100%;
     text-align: center;
 }
+
 .socialMedia a{
     text-decoration: none;
     color: white;
@@ -526,9 +461,7 @@ footer {
 }
 
 .socialMedia li {
-    display:inline;
-
-    
+    display:inline;  
 }
 
 .socialMedia a:hover {
@@ -538,75 +471,29 @@ footer {
     display: none;
 }  
 
-
-
-/* .socialMedia ul {
-    color: white;
-    list-style: none;
-    text-align: center;
-    /* line-height: 2.0; */
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    /* background-color: purple;
-}
-
-.socialMedia { */
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    /* background-color: orange;
-} */
-
-/* .socialMedia a{
-    color: white;
-    text-decoration: none;
-}
-
-.socialMedia a:hover {
-    color: #b64036;
-} */
-
-
-
-/* 
-.socialMedia i{
-    /* position: absolute; */
-
-    /* display: inline-block;
-} */ 
-
-/* .socialMedia li{
-    display: none;
-} */ 
-
 @media all and (min-width:600px) {
     .alohaLogo{
-        
         width: 18%;
     }
     
     .shoppingCart{
         order:3;
-   
         width: 18%;
     }
 
     .mainNavigation {
-       
         order:2;
         border-top:none;
         width: auto;
-        
     }
 
     p{
         font-size: 18px;
+        /* max-width: 650px; */
     }
 
     .banner h2 {
         font-weight: 500;
-
     }
 
     .banner h1{
@@ -615,12 +502,14 @@ footer {
 
     h1 {
         font-size: 2.857rem;
-
     }
 
-    .flexbox a{
+    .container p{
+        /* max-width: 650px; */
+    }
+
+    .categories a{
         font-size: 2.142rem;
-        
     }
     
     .box {
@@ -632,7 +521,6 @@ footer {
         width:50%;
     }
 
-
     .clothingType {
         font-size: 0.929rem;
         font-weight: 400px;
@@ -640,132 +528,127 @@ footer {
 
     .productCarousel h2{
         font-size: 26px;
-    
-    
     }
 
     .productCarousel p {
         text-transform: uppercase;
         color: #969696;
-   
-    
-    
     }
 
-    
     form{
         width: 60%;
         height: 50px;
         background-color: white;
-        border-radius: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         max-width: 500px;
-        margin-top: 10px;
-        margin-bottom: 45px;
     }
 
-    .subscribe input { /*whynotscaling */
-   
-    
-        padding-left: 30px;
-        font-family: 'Raleway';
+    .subscribe input { 
         font-weight: 200;
         font-size: 1.142rem;
-        color: #969696;
-        border: 1px #d7d7d7;
-        height: 40px;
-        border-radius: 50px;
-        
-    
     }
     
     .subscribe button {
-        font-family: 'Raleway';
         font-size: 1.142rem;
-        background-color:#e2574c;
-        color: white;
-        border-radius: 50px;
-        border: none;
         height: 44px;
         width: 120px;
-        margin-right: 3px;
     }
 
     .bottom {
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
+        border: 3px solid red;
+        width: 95%;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
-       
-        background-color: green;
-        /* border-top: 10px solid white; */
-     
+    }
+
+    .bottom p{
+        max-width: none;
+    }
+
+    .bottom div{
+        border: 3px dotted blue;
+    }
+
+    
+    .A{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+
+    /* .bottom {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        border: 3px solid red;
       } 
       
     .bottom p{
         font-size: 1.143rem;
-        max-width: none;
+        width: auto;
         margin-left: 0;
         margin-right: 0;
-
-
+        
+        /* background-color: lightgreen; 
     }
 
     .leftFooter {
-
         text-align: left;
-       
-        background-color: purple;
-      
-    }
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        /* border: 3px solid blue; 
+        height: auto;
+        width: 50%;
+        margin: 0;
 
-  
+    }
 
     .location {
         color: #969696;
-
-
-    }
-
-    .whatup {
-        height: 200px;
-        width: 200px;
-        background-color: red;
     }
 
     .socialMedia{
-    
         text-align: left;
         background-color: yellow;
-        width: auto;
+        width: 300px;
     }
 
-    .footer {
-        background-color: pink;
-        height: 200px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .socialMedia li {
+        display:block;  
     }
 
-    .containerA{
-        height: 10vw;
-        width: 50vw;
-        background-color: gray;
+    .socialMedia a{
+    display: inline;  
+    }
+    
+    .socialMedia {
+        width: 100%;
+        min-width: 350px;
+        height: 45px;
+        order: 3;
+        text-align: left;
     }
 
-    .containerB{
-        background-color: blue;
-        height: 10vw;
-        width: 50vw;
+    .socialMedia ul{
+        list-style: none;
+        text-transform: none;
+        text-align: left;
+        word-spacing: normal;
+        font-size: 15px;
+        font-weight: 400;
     }
+ */
+
+
 }
