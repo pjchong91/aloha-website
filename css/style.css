@@ -113,8 +113,8 @@ html {
 
 .top img{
     max-height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px 20px;
+
 }
 
 .alohaLogo{
@@ -171,6 +171,7 @@ body {
     font-family: 'Raleway';
     font-weight:300;
     color: #2d2d2d;
+    margin: 0px;
 }
 
 p {
@@ -401,7 +402,11 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+
 
 footer {
     width: 100%;
@@ -423,6 +428,8 @@ footer {
     line-height: 1.5;
     max-width: none;
     width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .leftFooter {
@@ -489,7 +496,7 @@ footer {
 
     p{
         font-size: 18px;
-        /* max-width: 650px; */
+
     }
 
     .banner h2 {
@@ -502,10 +509,14 @@ footer {
 
     h1 {
         font-size: 2.857rem;
+
+    }
+    .handcrafted {
+        margin-bottom: 70px;
     }
 
     .container p{
-        max-width: 650px;
+        max-width: 725px;
     }
 
     .categories a{
@@ -552,6 +563,11 @@ footer {
         height: 44px;
         width: 120px;
     }
+
+   .subemail{
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
 
     .bottom {
         width: 95%;
