@@ -466,10 +466,11 @@ footer {
 .socialMedia a:hover {
     color: #b64036;
 }
-.socialMedia li{
+.socialMedia p{
     display: none;
 }  
 
+/*RWD for Tablet*/
 @media all and (min-width:600px) {
     .alohaLogo{
         width: 18%;
@@ -504,7 +505,7 @@ footer {
     }
 
     .container p{
-        /* max-width: 650px; */
+        max-width: 650px;
     }
 
     .categories a{
@@ -559,7 +560,7 @@ footer {
         flex-direction: row;
         align-items: stretch;
         justify-content: space-between;
-        height: 200px;
+        height: 180px;
     }
 
     .bottom p{
@@ -568,31 +569,16 @@ footer {
     }
 
     .bottom div{
-        border: 3px dotted blue;
+        /* border: 3px dotted blue; */
     }
 
     .leftFooter {
         text-align: left;
         margin-bottom: none;
-        height: 200px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    .leftFooter p{
-
-    }
-
-   
-    .leftFooter {
-        
-        /*  */
-        /* border: 3px solid blue; 
-        height: auto;
-        width: 50%;
-        margin: 0;
-
     }
 
     .location {
@@ -601,24 +587,8 @@ footer {
 
     .socialMedia{
         text-align: left;
-        background-color: yellow;
-        width: 300px;
-    }
-
-    .socialMedia li {
-        display:block;  
-    }
-
-    .socialMedia a{
-    display: inline;  
-    }
+        /* background-color: darkslateblue; */
     
-    .socialMedia {
-        width: 100%;
-        min-width: 350px;
-        height: 45px;
-        order: 3;
-        text-align: left;
     }
 
     .socialMedia ul{
@@ -627,9 +597,30 @@ footer {
         text-align: left;
         word-spacing: normal;
         font-size: 15px;
-        font-weight: 400;
-    }
- */
+        font-weight: 300;
+        margin: 0;
+        height: 100%;
 
+      
+    }
+
+    .socialMedia i{
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    }
+
+    .socialMedia li{
+        display: block;
+        line-height: 2.5;
+        position: relative;
+        
+    }
+
+    .socialMedia p {
+        font-size: 1.143rem;
+        display: inline;
+        margin: 0;
+    }
 
 }
