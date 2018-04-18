@@ -1,7 +1,19 @@
 console.log("Bebness is bestness");
+var x = 
+document.getElementsByClassName("emailInput");
+
+x[0].style.color = "blue";
 
 function subAlert() {
+  // if (x[0].indexOf('@'>0)){
+    if (x[0].length>5) {
   alert("Thanks for subscribing!!");
+  console.log(x[0].length);
+    } else {
+    alert("Please input a proper email.");
+    console.log(x[0].length);
+    }
+
 }
 
 
@@ -40,3 +52,9 @@ function subAlert() {
       
     
 // }
+
+// document.write("I'm cute");
+// var x = 
+//     document.getElementById("pbanner").style.color = "coral";
+
+// console.log(x);
