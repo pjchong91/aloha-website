@@ -1,100 +1,56 @@
 $(document).ready(function(){
 
   console.log("Bebness is bestness");
+
+  //This section checks email for presence of @ and . before enabling 'Subscribe' button
   var x = 
-  document.getElementsByClassName("emailInput");
+    document.getElementsByClassName("emailInput")[0].value;
+  var y = 
+    x.length;
 
-  var y =
-  x[0].value.indexOf('@');
+  $(".emailInput").css("color","blue");
 
 
-  console.log(y);
+  $('input').on('keyup', function(){ //Limitation: cannot disable button once enabled (ie. through deletion)
+    var sinput = this.value;
 
-  x[0].style.color = "blue";
+    var revSinput = sinput.split("").reverse().join("");
 
+    var ratIndex = revSinput.indexOf('@')
+
+    var rdotIndex = revSinput.indexOf('.');
+  
+    console.log(sinput, revSinput);
+    console.log(rdotIndex, ratIndex);
+
+    if (ratIndex>1 && rdotIndex>1 && rdotIndex<ratIndex){
+      $('button[type="button"]').css("background-color","#e2574c");
+    }
+  });
+  
+
+  $("form").submit(function(){
+    alert("Thanks for subscribing!  Expect updates from us shortly to your email: " + (sinput));
+  })
+
+  
+
+// JS for item count in the cart - responds to "Add to Cart" button
   var c = document.getElementsByClassName("cartCount")[0].innerHTML;
-  console.log(c);
+  console.log(c + ' items in the cart');
 
 $(".cartAdd").on("click", function(){
   i = c;
   i ++ ;
   c = i;
   document.getElementsByClassName("cartCount")[0].innerHTML = c;
-console.log(c);
 });
 
-  // function addItem(i){
-  //   c = i ;
-  //   i++;
-  //   console.log(c);
-  // }
-
-  // function subAlert() {
-  //   // if (x[0].indexOf('@'>0)){
-  //     if (y>0) {
-  //   alert("Thanks for subscribing!!");
-  //   console.log(x[0].value);
-  //   console.log(x[0].value.length);
-  //   console.log(x[0].value.indexOf('@'));
-  //     } else {
-  //     alert("Please input a proper email.");
-  //     console.log(x[0].value);
-  //     console.log(x[0].value.length);
-  //     }
-
-
-
-  $(".sample").css("color","coral");
-  $(".sample").addClass("apple");
-
-  $(".banner").children().css({ "border": "2px solid red"});
-  $(".banana").children().css({  "border": "2px solid blue"});
-
+  
   // $('.main-carousel').flickity({
   //     // options
   //     cellAlign: 'left',
   //     contain: true
   //   });
-
-  //   console.log
-
-
-  //   let cartitems = 0
-  //   for each time additem is pressed
-  //     cartitems = cartitems+1
-
-  //     console.log(cartitems)
-
-
-
-  //     var count = 0;
-  // for (var i = 1; i < 100; i++) {
-  //   count = i;
-  //     if (i % 3 === 0 && i % 5 === 0) {
-  //       console.log('FizzBuzz');
-  //     }
-  //   else if (i % 3 === 0) {
-  //       console.log('Fizz');
-  //     } else if (i % 5 === 0) {
-  //       console.log('Buzz');
-  //     } else {
-  //       console.log("Current count: " + count);
-  //     }
-      
-          // $('button').on("click", function(event){
-          //   event.preventDefault();
-
-          //   var inputValue =$('input').val();
-          //   alert(inputvalue);
-          // })
-        
-      
-  // }
-
-  // document.write("I'm cute");
-  // var x = 
-  //     document.getElementById("pbanner").style.color = "coral";
-
-  // console.log(x);
 
 });  //end of document.ready()

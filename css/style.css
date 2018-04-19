@@ -170,7 +170,7 @@ html {
     justify-content: space-between;
     position: fixed;
     background-color: white;
-    z-index: 50000;
+    top: 0;
 }
 
 .top img{
@@ -491,10 +491,11 @@ form{
     width: 70%;
 }
 
-.subscribe button {
+.subemail button{
     font-family: 'Raleway';
     font-size: 14px;
-    background-color:#e2574c;
+    background-color: #969696;
+    /* background-color:#e2574c; active color*/
     color: white;
     border-radius: 50px;
     border: none;
