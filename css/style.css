@@ -168,6 +168,9 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index: 50000;
 }
 
 .top img{
@@ -190,7 +193,16 @@ html {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+}
+.shoppingCart p{
+    position:absolute;
+    background-color:#e2574c;
+    color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .mainNavigation {
@@ -233,6 +245,8 @@ body {
     font-weight:300;
     color: #2d2d2d;
     margin: 0px;
+ 
+    
 }
 
 p {
@@ -281,6 +295,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+
 }
 
 .handcrafted {
@@ -399,6 +414,32 @@ h1 {
 .cost {
     font-weight: 400;
     font-size: 14px;
+}
+
+.productCarousel button:hover{
+    font-family: 'Raleway';
+    font-size: 14px;
+    background-color:#e2574c;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin-right: 3px;
+    margin: 10px auto;
+}
+
+.productCarousel button{
+    font-family: 'Raleway';
+    font-size: 14px;
+    background-color:white;
+    color: #e2574c;
+    border-radius: 50px;
+    border: #e2574c 1px dotted;
+    height: 25px;
+    width: 100px;
+    margin-right: 3px;
+    margin: 10px auto;
 }
 
 .subscribe {
