@@ -171,6 +171,7 @@ html {
     position: fixed;
     background-color: white;
     top: 0;
+    z-index:1;
 }
 
 .top img{
@@ -390,7 +391,12 @@ h1 {
 }
 
 .productCarousel{
-    height: 680px;
+    margin-top: 20px;
+    height:500px;
+}
+
+.carousel-cell{
+    width: 100%;
 }
 
 .productCarousel p {
@@ -417,6 +423,8 @@ h1 {
     font-weight: 400;
     font-size: 14px;
 }
+
+
 
 .productCarousel button:hover{
     font-family: 'Raleway';
@@ -494,8 +502,7 @@ form{
 .subemail button{
     font-family: 'Raleway';
     font-size: 14px;
-    background-color: #969696;
-    /* background-color:#e2574c; active color*/
+    background-color: #e2574c;
     color: white;
     border-radius: 50px;
     border: none;
@@ -622,6 +629,7 @@ footer {
 
     h1 {
         font-size: 2.857rem;
+        margin: 40px;
 
     }
     .handcrafted {
@@ -648,6 +656,10 @@ footer {
     .clothingType {
         font-size: 0.929rem;
         font-weight: 400px;
+    }
+
+    .carousel-cell{
+        width: 50%;
     }
 
     .productCarousel h2{
@@ -766,6 +778,10 @@ footer {
         width: 30px;
         height: 30px;
         line-height: 30px;
+    }
+
+    .carousel-cell{
+        width: 25%;
     }
 
     .mainNavigation ul{

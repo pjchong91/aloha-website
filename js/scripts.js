@@ -1,8 +1,22 @@
 $(document).ready(function(){
 
+  //Flickity product carousel
+  $('.productCarousel').flickity({
+    // options
+    cellAlign: 'center',
+    contain: true,
+    wrapAround: false,
+    autoPlay: true,
+    prevNextButtons: false,
+    groupCells: true,
+   
+});
+  
+  
+  
   console.log("Bebness is bestness");
 
-  //This section checks email for presence of @ and . before enabling 'Subscribe' button
+  //This section checks email for presence of @ and . 
   var x = 
     document.getElementsByClassName("emailInput")[0].value;
   var y = 
@@ -23,16 +37,31 @@ $(document).ready(function(){
     console.log(sinput, revSinput);
     console.log(rdotIndex, ratIndex);
 
-    if (ratIndex>1 && rdotIndex>1 && rdotIndex<ratIndex){
-      $('button[type="button"]').css("background-color","#e2574c");
-    }
+    
   });
+
+  $("#subscribe").on("submit"), function(event) {
+    event.preventDefault();
+  }
+
+  // $("#subscribe").on("submit", function(event) {
+  //   event.preventDefault();
+  //   if (ratIndex>1 && rdotIndex>1 && rdotIndex<ratIndex) {
+  //     alert("Thanks for subscribing!  Expect updates from us shortly to your email: " + (sinput));
+  //   } else {
+  //     alert("Please submit a valid email.");
+  //   }
+  // });
   
 
-  $("form").submit(function(){
-    alert("Thanks for subscribing!  Expect updates from us shortly to your email: " + (sinput));
-  })
+  // $("#subscribe").on('submit', (function(){
+  //   event.preventDefault();
 
+  //   if (ratIndex>1 && rdotIndex>1 && rdotIndex<ratIndex){
+  //   alert("Thanks for subscribing!  Expect updates from us shortly to your email: " + (sinput));
+  // } else {
+  //   alert("Please submit a valid email.");
+  // }));
   
 
 // JS for item count in the cart - responds to "Add to Cart" button
