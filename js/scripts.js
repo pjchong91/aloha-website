@@ -34,16 +34,16 @@ $('a[href*="#"]')
         $('html, body').animate({
           scrollTop: target.offset().top
         }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
+          // // Callback after animation
+          // // Must change focus!
+          // var $target = $(target);
+          // $target.focus();
+          // if ($target.is(":focus")) { // Checking if the target was focused
+          //   return false;
+          // } else {
+          //   $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+          //   $target.focus(); // Set focus again
+          // };
         });
       }
     }
@@ -85,14 +85,18 @@ $("#subscribe").on('click', 'button', function(){
   
 
 // JS for item count in the cart - responds to "Add to Cart" button
-  var c = document.getElementsByClassName("cartCount")[0].innerHTML;
-  console.log(c + ' items in the cart');
+  // var cartCount = document.getElementsByClassName("cartCount")[0].innerHTML;
+  // console.log(cartCount);
 
+
+  var cartCount = $('.cartCount').html();
 $(".cartAdd").on("click", function(){
-  i = c;
-  i ++ ;
-  c = i;
-  document.getElementsByClassName("cartCount")[0].innerHTML = c;
+  // i = cartCount;
+  // i ++ ;
+  cartCount ++;
+  console.log(cartCount);
+  document.getElementsByClassName("cartCount")[0].innerHTML = cartCount;
+
 });
 
  

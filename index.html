@@ -7,54 +7,50 @@
   
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
-    <!-- Put your own css after external fonts    -->
+ 
     <meta name="description" content="Clothing by Aloha Apparel Co">
     <meta name="author" content="P Chong">
-    
     
 </head>
 
 <body>
     <!-- Top of the page.  Includes: Logo, Navigation Bar, and Shopping Cart -->
     <section class="top">
-            <div class="alohaLogo">
-                <img src="./images/aloha-logo.svg" alt="Aloha Apparel Co. Logo">
-            </div>
+        <div class="alohaLogo">
+            <img src="./images/aloha-logo.svg" alt="Aloha Apparel Co. Logo">
+        </div>
    
+        <nav class="mainNavigation">
+            <ul>
+                <a href="#aboutJump"><li>About</li></a>
+                <a href="#shopJump"><li>Shop</li> </a>
+                <a href="#featuredJump"><li>Featured</li> </a>
+                <a href="#updatesJump"><li>Updates</li></a>
+            </ul>
+        </nav>
 
-            <nav class="mainNavigation">
-                <ul>
-                    <a href="#aboutJump"><li>About</li></a>
-                    <a href="#shopJump"><li>Shop</li> </a>
-                    <a href="#featuredJump"><li>Featured</li> </a>
-                    <a href="#updatesJump"><li>Updates</li></a>
-                </ul>
-            </nav>
-
-            <div class="shoppingCart">
-                <div>
-                    <p class=cartCount>0</p>
-                </div>
-                <div>
-                    <img src="./images/cart-icon.svg" alt="Shopping Cart">
-                </div>
-                
-            </div>   
+        <div class="shoppingCart">
+            <div>
+                <p class=cartCount>0</p>
+            </div>
+            <div>
+                <img src="./images/cart-icon.svg" alt="Shopping Cart">
+            </div>    
+        </div>   
     </section>
 
 
     <!-- Banner.  Includes: Floral background and 2 headers -->
     <section class="banner">
-        <div class="container banana">
+        <div class="container">
             <h2>New Collection</h2>
-            <h1 class="sample">Spring/Summer 2017</h1>
+            <h1>Spring/Summer 2017</h1>
         </div>
     </section>
    
-<div class="anchor" id="aboutJump"></div>
+    <div class="anchor" id="aboutJump"></div>
     <section class="handcrafted">
         <div class="container">
             <h1><em>Hand-Crafted</em> <strong>Styles</strong></h1>
@@ -64,7 +60,6 @@
         </div>
     </section>
 
-    
     <!-- Flexbox containing 6 styles -->
     <div class="anchor" id="shopJump"></div>
     <section>
@@ -96,7 +91,7 @@
     </section> <!-- End of section -->
 
 
-<div class="anchor" id="featuredJump"></div>
+    <div class="anchor" id="featuredJump"></div>
     <section class="mostLoved">
         <div class="container">
             <h1><em>Most-Loved</em> <strong>Products</strong></h1>
@@ -114,8 +109,6 @@
                     </figure>
                 </div>
             
-
-
                 <div class="carousel-cell"> 
                     <figure> 
                         <img src="./images/blue-silk-dress.jpg" alt="Blue Silk Dress"> 
@@ -141,8 +134,7 @@
                 </div>
 
                 <div class="carousel-cell"> 
-                    <figure>
-                        
+                    <figure> 
                         <img src="./images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
                         <figcaption>
                             <p class="clothingType">Shirts</p>
@@ -165,7 +157,6 @@
                     </figure>
                 </div>
 
-
                 <div class="carousel-cell">  
                     <figure>
                         <img src="./images/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
@@ -178,21 +169,20 @@
                     </figure>
                 </div>
             
-            <div class="carousel-cell">   
-            <figure>
-                    
-                    <img src="./images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
-                    <figcaption>
-                        <p class="clothingType">Dresses</p>
-                        <h2>Pink Dotted Dress</h2>
-                        <p class="cost">$99.00</p>
-                        <button class="cartAdd">Add to Cart</button>
-                    </figcaption>
-                </figure>
-            </div> 
+                <div class="carousel-cell">   
+                    <figure>
+                        <img src="./images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
+                        <figcaption>
+                            <p class="clothingType">Dresses</p>
+                            <h2>Pink Dotted Dress</h2>
+                            <p class="cost">$99.00</p>
+                            <button class="cartAdd">Add to Cart</button>
+                        </figcaption>
+                     </figure>
+                </div> 
+
                 <div class="carousel-cell">
                     <figure>
-                        
                         <img src="./images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">   
                         <figcaption>
                             <p class="clothingType">Dresses</p>
@@ -203,10 +193,9 @@
                     </figure> 
                  </div>   
             </div> <!--End of productCarousel -->
-        </div>
+        </div> <!-- End of "Most-Loved/Feature Container"-->
     </section> 
     
-
     <!-- Subscribe section.  Includes: Wave banner, form with input box and button-->
     <div class="anchor" id="updatesJump"></div>
     <section class="subscribe">
@@ -216,22 +205,17 @@
             upcoming sales, and get free style tips from our blog. Unsubscribe at any time. </p>
         </div>
         
-
         <div class="subemail">
             <form id="subscribe"> 
-                <!-- <p class="emailInput">WHY THIS NOT WORK</p> -->
                 <input type="email" name="email" value="YourEmail@Email.com" class="emailInput"/>
                 <button type="button" enabled>Subscribe</button>
             </form>
-        </div> -->
+        </div>
     </section>
 
     <footer>
-
         <div class="bottom">
-
             <div class="leftFooter">
-              
                 <div class="copyright">
                     <p>© 2017 Aloha Apparel Co.<br>
                      Powered by HTML and CSS. </p>
@@ -245,9 +229,7 @@
                     <p>1490 W Broadway <br>
                     Vancouver, BC, Canada </p>
                 </div>
-                
-            
-        </div>
+            </div>
 
             <div class="socialMedia">
                 <ul>
@@ -281,7 +263,6 @@
                     </li>
 
                     <li>
-
                          <a href="#" class="mediaBlock">
                             <i class="fab fa-google-plus-g google-plus"></i> 
                             <p class="mediaBlock">Google+</p>
