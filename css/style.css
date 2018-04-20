@@ -172,6 +172,7 @@ html {
     background-color: white;
     top: 0;
     z-index:1;
+    border-color: 4px solid blue;
 }
 
 .top img{
