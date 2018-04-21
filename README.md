@@ -14,7 +14,7 @@ Using: HtmL, CSS, and Javascript
     - To create checkpoints of project progression as different elements become functional.  Progress can be reverted to a previous 'Git Push' if new changes significantly break the project.
 
 * Q: What is a CSS reset and why do we use it?
-    - CSS resets remove pre-set properties that a browser may apply to an element in the case that no previous property has been specified.  For example: an <h1> may have a pre-set font-size and font-weight on Chrome that will be applied if there are no specifications provided by the developer's CSS.
+    - CSS resets remove pre-set properties that a browser may apply to an element in the case that no previous property has been specified.  For example: an 'h1' may have a pre-set font-size and font-weight on Chrome that will be applied if there are no specifications provided by the developer's CSS.
 
 
 ## Misc. Learning acquired:
