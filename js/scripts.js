@@ -1,17 +1,16 @@
 $(document).ready(function(){
 
-  //Flickity product carousel
+  //Flickity product carousel from: https://flickity.metafizzy.co/
   $('.productCarousel').flickity({
-    // options
     cellAlign: 'center',
     contain: true,
     wrapAround: false,
     autoPlay: true,
     prevNextButtons: false,
-    groupCells: true,
+    groupCells: 1,
    
 });
-
+//Smooth scroll function from: https://css-tricks.com/snippets/jquery/smooth-scrolling/#article-header-id-1
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -49,12 +48,8 @@ $('a[href*="#"]')
     }
   });
   
-  
-  
-  console.log("Bebness is bestness");
 
-
- // Subscribe email
+ // Checked email in "subscribe" input form for validity.
 
 $("#subscribe").on('click', 'button', function(){
     var sinput = 
@@ -66,29 +61,18 @@ $("#subscribe").on('click', 'button', function(){
 
     var rdotIndex = revSinput.indexOf('.');
 
-  
-    console.log(sinput, revSinput);
-    console.log(rdotIndex, ratIndex);
-   
 // This checks for presence of @ and a '.' after @.  Would reccomend using regex to improve project.
    if (ratIndex>1 && rdotIndex>1 && rdotIndex<ratIndex) {
         alert("Thanks for subscribing!  Expect updates from us shortly to your email: " + (sinput));
-   } else {
+    } else {
         alert("Please submit a valid email.")
-};
-
+    };
 
 });
 
 
-
-  
-
 // JS for item count in the cart - responds to "Add to Cart" button
-  // var cartCount = document.getElementsByClassName("cartCount")[0].innerHTML;
-  // console.log(cartCount);
-
-
+ 
   var cartCount = $('.cartCount').html();
 $(".cartAdd").on("click", function(){
   // i = cartCount;

@@ -252,7 +252,7 @@ body {
 p {
     margin: 0 auto;
     line-height: 2;
-    font-size: 16px;
+    font-size: 1.14rem;
 }
 
 section {
@@ -265,6 +265,7 @@ section {
     color: white;
     text-shadow: 1px 1px 2px gray;
     font-weight: 300;
+    margin-top: 20px;
 }
 
 .banner h2{
@@ -278,15 +279,16 @@ section {
 
 h1 {
     font-family: 'Playfair Display';
-    font-size: 34px;
-    margin: 20px;
+    font-size: 2.15rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .banner {
     background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/banner-girl.png') no-repeat, url('../images/flower-bkgd.jpg');
-    background-position: center, center bottom, center;
+    background-position: center, center bottom -20px, center;
     background-size: cover, auto 350px, cover; /*Adjust girl so that legs are not visible in banner*/
-    height: 400px;
+    height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,21 +297,30 @@ h1 {
     margin-top: 100px;
 }
 
+.bannertext{
+    transform: translateY(10px);
+}
+
 div.anchor {
     display: block;
     position: relative;
-    top: -75px;
+    top: -100px;
     visibility: hidden;
 }
 
-.handcrafted {
-    margin-top: 50px;
-    margin-bottom:50px;
-}
+.handcrafted p{
+    margin-bottom:60px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
 
 .mostLoved {
     margin-top: 40px;
     margin-bottom: 50px;
+}
+
+.mostLoved h1{
+    margin-bottom: 75px;
 }
 
 .categories {
@@ -338,8 +349,8 @@ div.anchor {
 .categories a{
     text-transform: uppercase;
     color: white;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 400;
     text-shadow: 1px 1px 2px gray;
     text-align: center;
     text-decoration: none;
@@ -446,9 +457,9 @@ div.anchor {
 }
 
 .subscribe {
-    background-image: linear-gradient(to right, rgba(225,225,0,0.02), rgba(225,225,0,0.02)), url('../images/wave-bkgd.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/wave-bkgd.jpg');
     background-repeat: cover;
-    background-position: bottom;
+    background-position: center bottom -10px;;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -466,6 +477,7 @@ div.anchor {
     color: white;
     text-shadow: 1px 2px 2px gray;
     width: 90%;
+    margin-bottom: 15px;
 }
 
 form{
@@ -490,6 +502,7 @@ form{
     height: 40px;
     border-radius: 50px;
     width: 70%;
+    font-weight: 200;
 }
 
 .subemail button{
@@ -519,6 +532,7 @@ footer {
     padding-bottom: 50px;
     background-color: #242424;
     border-top: 10px solid white;
+    
 }
 
 .bottom{
@@ -526,15 +540,16 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .bottom p{
-    font-size: 14px;
     line-height: 1.5;
     max-width: none;
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.0rem;
 }
 
 .leftFooter {
@@ -584,6 +599,11 @@ footer {
 
 /*RWD for Tablet*/
 @media all and (min-width:600px) {
+
+    html {
+        font-size: 16px;
+    }
+
     .alohaLogo{
         width: 18%;
     }
@@ -597,10 +617,15 @@ footer {
         order:2;
         border-top:none;
         width: auto;
+        font-size: 0.875rem;
+    }
+
+    div.anchor {
+        top: -70px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 1.125rem;
 
     }
 
@@ -609,28 +634,38 @@ footer {
     }
 
     .banner h1{
-        font-size: 3.57rem;
+        font-size: 3.0rem;
     }
 
     .banner{
         margin-top: 70px;
     }
 
+    .bannertext{
+        transform: translateY(20px);
+    }
+
     h1 {
-        font-size: 2.857rem;
-        margin: 40px;
+        font-size: 2.4rem;
     }
 
-    .handcrafted {
-        margin-bottom: 70px;
+    .handcrafted h1{
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 
-    .container p{
+    .handcrafted p,
+    .subscribe p{
         max-width: 725px;
+        margin: 0 auto 10px auto;
+    }
+
+    .handcrafted p{
+        margin-bottom: 60px;
     }
 
     .categories a{
-        font-size: 2.142rem;
+        font-size: 1.8rem;
     }
     
     .box {
@@ -679,7 +714,6 @@ footer {
     }
 
    .subemail{
-       margin-top: 20px;
        margin-bottom: 20px;
    }
 
@@ -695,7 +729,7 @@ footer {
 
     .bottom p{
         max-width: none;
-        font-size: 1.143rem;
+        font-size: 0.98rem;
     }
 
     .leftFooter {
@@ -707,12 +741,9 @@ footer {
         justify-content: space-between;
     }
 
-    .location {
-        color: #969696;
-    }
-
     .socialMedia{
         text-align: left;
+        transform: translateX(-85px);
     }
 
     .socialMedia ul{
@@ -720,7 +751,7 @@ footer {
         text-transform: none;
         text-align: left;
         word-spacing: normal;
-        font-size: 15px;
+        font-size: 0.98rem;
         height: 100%;
     }
 
@@ -737,7 +768,7 @@ footer {
     }
 
     .socialMedia p {
-        font-size: 1.143rem;
+        font-size: 0.98rem;
         display: inline;
     }
 }
@@ -749,6 +780,12 @@ footer {
         margin: 20px 40px;
     }
 
+    .top {
+        max-width: 1240px;
+        margin: 0 auto; left:0px; right:0px;
+        text-align: center;
+    }
+
     div.anchor{
         top:-100px;
     }
@@ -758,6 +795,11 @@ footer {
         width: 30px;
         height: 30px;
         line-height: 30px;
+    }
+
+    .productCarousel{
+        max-width: 1240px;
+        margin: 0 auto; left:0px; right: 0px;
     }
 
     .carousel-cell{
@@ -775,14 +817,19 @@ footer {
 
     .banner h1{
         font-size: 4.286rem;
-        margin-top: 80px;
+        margin-top: 20px;
+    }
+
+    .bannertext{
+        transform: translateY(20px);
     }
 
     .banner{
-        margin-top: 100px;
+        margin-top: 110px;
         background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/banner-girl.png') no-repeat, url('../images/flower-bkgd.jpg') repeat;
-        background-position: center, center bottom, center;
-        background-size: cover, auto 350px, contain;
+        background-position: center, center 70px, center;
+        background-size: cover, auto 620px, 1000px auto;
+        height: 560px;
     }
 
     .categories a{
@@ -790,7 +837,8 @@ footer {
     }
 
     .subscribe {
-        background-repeat: cover, no-repeat;
+        background-repeat: no-repeat;
+        background-position: center bottom;;
+        width: 100%;
     }
-
 }
