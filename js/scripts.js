@@ -78,7 +78,6 @@ $(".cartAdd").on("click", function(){
   // i = cartCount;
   // i ++ ;
   cartCount ++;
-  console.log(cartCount);
   document.getElementsByClassName("cartCount")[0].innerHTML = cartCount;
 
 });
