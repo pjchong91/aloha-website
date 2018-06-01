@@ -1,4 +1,5 @@
 # Project 01 - Aloha Webpage
+* Author: P. Chong, WDP Student 2018 Q2.
 
 ## Task: Create a homepage for Aloha Apparel Co.
 Using: HtmL, CSS, and Javascript

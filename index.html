@@ -2,6 +2,8 @@
 <html lang="en"> 
 <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Clothing by Aloha Apparel Co">
+    <meta name="author" content="P Chong">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <title>Aloha Apparel Co.</title>
   
@@ -10,38 +12,39 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
  
-    <meta name="description" content="Clothing by Aloha Apparel Co">
-    <meta name="author" content="P Chong">
+   
     
 </head>
 
 <body>
     <!-- Top of the page.  Includes: Logo, Navigation Bar, and Shopping Cart -->
-    <div class="navbackground">
-    <section class="top">
-        <div class="alohaLogo">
-            <img src="./images/aloha-logo.svg" alt="Aloha Apparel Co. Logo">
-        </div>
-   
-        <nav class="mainNavigation">
-            <ul>
-                <li><a href="#aboutJump">About</a></li>
-                <li><a href="#shopJump">Shop</a></li> 
-                <li><a href="#featuredJump">Featured</a></li> 
-                <li><a href="#updatesJump">Updates</a></li>
-            </ul>
-        </nav>
-
-        <div class="shoppingCart">
-            <div>
-                <p class=cartCount>0</p>
+    <!-- <div class="navbackground"> -->
+    <section class="navbackground">
+        <div class="top">
+            <div class="alohaLogo">
+                <img src="./images/aloha-logo.svg" alt="Aloha Apparel Co. Logo">
             </div>
-            <div>
-                <img src="./images/cart-icon.svg" alt="Shopping Cart">
-            </div>    
-        </div>   
+
+            <nav class="mainNavigation">
+                <ul>
+                    <li><a href="#aboutJump">About</a></li>
+                    <li><a href="#shopJump">Shop</a></li> 
+                    <li><a href="#featuredJump">Featured</a></li> 
+                    <li><a href="#updatesJump">Updates</a></li>
+                </ul>
+            </nav>
+
+            <div class="shoppingCart">
+                <div>
+                    <p class=cartCount>0</p>
+                </div>
+                <div>
+                    <img src="./images/cart-icon.svg" alt="Shopping Cart">
+                </div>    
+            </div>   
+        </div>
     </section>
-    </div>
+    <!-- </div> -->
 
 
     <!-- Banner.  Includes: Floral background and 2 headers -->
@@ -208,7 +211,7 @@
         
         <div class="subemail">
             <form id="subscribe"> 
-                <input type="email" name="email" value="Your Email" class="emailInput"/>
+                <input type="email" name="email" placeholder="Your Email" class="emailInput"/>
                 <button type="button">Subscribe</button>
             </form>
         </div>
